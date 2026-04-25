@@ -133,7 +133,6 @@ cat newfile | grep -i "hello"
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
-<img width="660" height="101" alt="Screenshot 2026-04-25 140638" src="https://github.com/user-attachments/assets/a26346aa-7dfe-47eb-b269-dfdbba3bcd4a" />
 <img width="692" height="77" alt="Screenshot 2026-04-25 140627" src="https://github.com/user-attachments/assets/7dac1660-4bf6-44b3-9119-209cf2fa6228" />
 
 
