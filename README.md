@@ -339,7 +339,7 @@ sed -n '2,4{s/$/*/;p}' file23
 <img width="672" height="149" alt="Screenshot 2026-04-25 142933" src="https://github.com/user-attachments/assets/9d8ba72b-1a5e-4404-814c-0d347d2d4444" />
 
 
-#Sorting File content
+## Sorting File content
 cat > file21
 ```
 1001 | Ram | 10000 | HR
@@ -350,6 +350,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="729" height="164" alt="Screenshot 2026-04-25 143133" src="https://github.com/user-attachments/assets/01c29d82-0ab9-416f-a2ee-56055b2ad9ed" />
 
 
 cat > file22
@@ -363,13 +364,17 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="681" height="173" alt="Screenshot 2026-04-25 143202" src="https://github.com/user-attachments/assets/8fbb6951-4f4d-48ea-916b-718e5ef25af2" />
 
 
 
-#Using tr command
+## Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="777" height="267" alt="Screenshot 2026-04-25 143207" src="https://github.com/user-attachments/assets/4e4e2acf-027f-4762-98da-f107a9e7ed98" />
+
+<img width="728" height="123" alt="Screenshot 2026-04-25 143344" src="https://github.com/user-attachments/assets/3b85dc57-1be1-49f0-8b29-3b75259d8538" />
 
 cat < urllist.txt
 ```
@@ -386,17 +391,20 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="728" height="123" alt="Screenshot 2026-04-25 143344" src="https://github.com/user-attachments/assets/a754148a-7fb5-409f-b696-5a1d0857068f" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="668" height="132" alt="Screenshot 2026-04-25 143351" src="https://github.com/user-attachments/assets/d423187b-3ded-45cf-9870-cb2d4f79539d" />
 
 
 
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="576" height="239" alt="Screenshot 2026-04-25 143446" src="https://github.com/user-attachments/assets/78e79169-898e-4960-891f-83644351ce23" />
 
 
 mkdir backupdir
@@ -407,15 +415,18 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="686" height="252" alt="Screenshot 2026-04-25 143518" src="https://github.com/user-attachments/assets/49a490d5-bd44-40ce-b6d3-b8309a152668" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="780" height="303" alt="Screenshot 2026-04-25 143601" src="https://github.com/user-attachments/assets/90421272-7987-407a-81de-f8f196695f73" />
 
 gzip backup.tar
 
 ls .gz
 ## OUTPUT
+
  
 gunzip backup.tar.gz
 ## OUTPUT
