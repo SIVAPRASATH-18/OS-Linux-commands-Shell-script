@@ -56,7 +56,6 @@ cmp file1 file2
 
 comm file1 file2
  ## OUTPUT
-<img width="597" height="87" alt="Screenshot 2026-04-25 140239" src="https://github.com/user-attachments/assets/0c447e03-3e6f-4d2b-9708-b0149c332523" />
 <img width="649" height="225" alt="Screenshot 2026-04-25 140058" src="https://github.com/user-attachments/assets/eb7ee134-3100-4136-84a6-4cabdb45c387" />
 
  
