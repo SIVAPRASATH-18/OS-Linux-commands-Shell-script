@@ -372,7 +372,6 @@ cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
 <img width="777" height="267" alt="Screenshot 2026-04-25 143207" src="https://github.com/user-attachments/assets/4e4e2acf-027f-4762-98da-f107a9e7ed98" />
 
-<img width="728" height="123" alt="Screenshot 2026-04-25 143344" src="https://github.com/user-attachments/assets/3b85dc57-1be1-49f0-8b29-3b75259d8538" />
 
 cat < urllist.txt
 ```
