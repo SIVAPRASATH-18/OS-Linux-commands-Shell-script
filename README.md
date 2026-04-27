@@ -438,6 +438,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="732" height="135" alt="image" src="https://github.com/user-attachments/assets/deaa58c5-7c6c-4667-9ef7-4a32954c2648" />
 
  
 cat << stop > herecheck.txt
@@ -450,6 +451,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="682" height="151" alt="image" src="https://github.com/user-attachments/assets/573d78eb-9e60-45e7-a2d6-394164679b2c" />
 
 
 cat < scriptest.sh 
@@ -488,25 +490,29 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="690" height="427" alt="image" src="https://github.com/user-attachments/assets/39f67f83-da9b-412f-8e91-0176f9f6522b" />
 
- 
+
 ls file1
 ## OUTPUT
+<img width="702" height="76" alt="image" src="https://github.com/user-attachments/assets/9ac660c1-44df-4539-8362-c90c8c3be284" />
 
 echo $?
 ## OUTPUT 
+<img width="648" height="77" alt="image" src="https://github.com/user-attachments/assets/c72a85b9-134a-4536-9dce-36b2754942e6" />
+
+
 ./one
 bash: ./one: Permission denied
  
 echo $?
 ## OUTPUT 
- 
+
 abcd
  
 echo $?
  ## OUTPUT
-
-
+<img width="708" height="83" alt="image" src="https://github.com/user-attachments/assets/9b388db0-fbf5-45f0-a7b3-332e3f48a84f" />
  
 # mis-using string comparisons
 
@@ -537,13 +543,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
+<img width="729" height="289" alt="image" src="https://github.com/user-attachments/assets/7d664717-05eb-446b-816d-e2482c52df07" />
 
 
 
 chmod 755 strcomp.sh
- 
 ./strcomp.sh 
 ## OUTPUT
+<img width="669" height="152" alt="image" src="https://github.com/user-attachments/assets/0a71949d-fc3d-46fa-84d7-f60c90409ee2" />
 
 
 # check file ownership
@@ -571,6 +578,8 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="677" height="87" alt="image" src="https://github.com/user-attachments/assets/aa2b743d-878c-4d10-8137-303d076852b0" />
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -617,6 +626,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
+<img width="729" height="80" alt="image" src="https://github.com/user-attachments/assets/a593b77b-c435-43da-9e73-3d7e960247d8" />
 
 
 
@@ -661,6 +671,8 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="701" height="159" alt="image" src="https://github.com/user-attachments/assets/9f27e4d6-13ca-48ff-934e-0fe57339f70e" />
+
 
 # check if a file
 cat > ifnested.sh 
@@ -710,6 +722,7 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="667" height="175" alt="image" src="https://github.com/user-attachments/assets/161967cf-1aa6-4dfb-aa79-8a8966c6c18f" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -738,6 +751,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="776" height="131" alt="image" src="https://github.com/user-attachments/assets/7d6dd18c-a4f3-4d61-a1d1-0ceca1eeab1e" />
 
 
 # testing compound comparisons
@@ -754,6 +768,7 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="689" height="128" alt="image" src="https://github.com/user-attachments/assets/d600ea80-705b-44a8-9b71-ac976665bd5c" />
 
 # using the case command
 cat >casecheck.sh 
@@ -773,7 +788,9 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
- 
+ ## output
+ <img width="740" height="91" alt="image" src="https://github.com/user-attachments/assets/954f50d7-3e44-4627-808e-9d9b585df988" />
+
 cat > whiletest
 ```bash
 #!/bin/bash
@@ -788,7 +805,9 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+## output
+<img width="676" height="131" alt="image" src="https://github.com/user-attachments/assets/f82d7557-999e-4508-86f7-2942bd40e0ee" />
+
  
 cat untiltest.sh 
 ```bash
@@ -801,8 +820,9 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
- 
+## output
+<img width="659" height="56" alt="image" src="https://github.com/user-attachments/assets/fe03ef61-f3d0-400a-b116-e295420dcb99" />
+
  
 cat forin1.sh 
 ```bash
@@ -828,7 +848,9 @@ done
  ```
  
 $ chmod 755 forin2.sh
- 
+## output
+<img width="707" height="51" alt="image" src="https://github.com/user-attachments/assets/f601c759-f6c4-440f-87ee-8a81afe3481c" />
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -841,7 +863,10 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- 
+## output
+<img width="729" height="200" alt="image" src="https://github.com/user-attachments/assets/791ca8c2-3dda-4f4d-849c-3fe3be48da36" />
+
+
 cat forin3.sh 
 ```bash
 \#!/bin/bash
@@ -852,7 +877,9 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
- 
+## output
+<img width="679" height="85" alt="image" src="https://github.com/user-attachments/assets/4877201c-fdb2-4b6c-b794-fd48714fd5b8" />
+
 cat forin1.sh 
 ```bash
 #!/bin/bash
@@ -865,6 +892,9 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+<img width="685" height="51" alt="image" src="https://github.com/user-attachments/assets/ad4b29fa-a292-481a-822f-4672ab9981e4" />
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -886,7 +916,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
-
+<img width="704" height="175" alt="image" src="https://github.com/user-attachments/assets/8d6bae3c-c501-4a4e-a11c-8f75716da06e" />
 
 cat forctype.sh 
 ```bash
@@ -900,6 +930,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="727" height="195" alt="image" src="https://github.com/user-attachments/assets/9db98c34-0bd5-4394-9942-bf9986b58ccf" />
+
 
 cat forctype1.sh 
 ```bash
@@ -913,6 +945,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="667" height="97" alt="image" src="https://github.com/user-attachments/assets/f9dd929e-5a7c-4d5b-8d92-9007ada7a657" />
+
 
 cat fornested1.sh 
 ```bash
@@ -931,6 +965,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="741" height="376" alt="image" src="https://github.com/user-attachments/assets/2c568cff-1795-4985-a934-8652f3a680b9" />
 
  
 cat forbreak.sh 
@@ -947,12 +982,13 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
 
 $ chmod 755 forbreak.sh
  
-$ ./forbreak.sh 
- 
+$ ./forbreak.sh
+## output
+<img width="773" height="152" alt="image" src="https://github.com/user-attachments/assets/5b4a6b49-cbab-432b-823b-c3d92077ae2c" />
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
