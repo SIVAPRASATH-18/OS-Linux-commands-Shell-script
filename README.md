@@ -1009,7 +1009,9 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- 
+<img width="678" height="128" alt="image" src="https://github.com/user-attachments/assets/1b473fb8-2b0c-4d86-a5bf-5457aeab64bc" />
+
+
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -1023,6 +1025,7 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="716" height="129" alt="image" src="https://github.com/user-attachments/assets/1c669c38-e22d-416e-ab30-d5f38772c30c" />
 
 
  cat exread1.sh
@@ -1033,13 +1036,11 @@ read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
 $ ./exread1.sh 
- 
+## OUTPUT
+<img width="750" height="169" alt="image" src="https://github.com/user-attachments/assets/2234b3c2-6f42-478d-8c93-f51806870630" />
+
+
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -1055,11 +1056,13 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
-## OUTPUT
+
  ./funcex.sh 
 
  
  ./funcex.sh 1 2
+ ## OUTPUT
+<img width="684" height="111" alt="image" src="https://github.com/user-attachments/assets/262c6ac6-af4a-4b11-8bee-dc9c9f524e7d" />
 
  
 cat argshift.sh
@@ -1071,9 +1074,10 @@ cat argshift.sh
 done
 ```
 $ chmod 777 argshift.sh
-
-## OUTPUT
 $ ./argshift.sh 1 2 3
+ ## OUTPUT
+<img width="661" height="149" alt="image" src="https://github.com/user-attachments/assets/e8d627eb-47e3-435e-a8f1-648ecc19e1c3" />
+
  
  cat argshift1.sh
 ```bash
@@ -1089,8 +1093,11 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
+
 $ ./argshift.sh 1 2 3
+ ## OUTPUT
+<img width="759" height="144" alt="image" src="https://github.com/user-attachments/assets/50417b0d-bde2-4f6a-9baa-64ac73e4c9fa" />
+
  
 cat argshift.sh
 ```bash
@@ -1102,10 +1109,12 @@ while (( "$#" )); do
 done
 set +x
 ```
-## OUTPUT
+
+
  ./argshift.sh 1 2 3
- 
- 
+ ## OUTPUT
+ <img width="810" height="112" alt="image" src="https://github.com/user-attachments/assets/bc4b4552-74de-4956-ad39-1bad563b53a7" />
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1135,7 +1144,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ <img width="759" height="392" alt="image" src="https://github.com/user-attachments/assets/eeed1fd7-b1d3-4dc6-86c0-c5bfaa97bb10" />
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1162,6 +1172,7 @@ else
 fi
 ```
 ## OUTPUT 
+<img width="682" height="606" alt="image" src="https://github.com/user-attachments/assets/e358a61f-4573-4739-94f2-6fb5078d591c" />
 
 
 # RESULT:
